@@ -1,0 +1,35 @@
+{
+  "name": "barber-server",
+  "version": "1.1.0",
+  "description": "Server.",
+  "main": "index.js",
+  "engines": {
+    "node": "6.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starkland/barber-server.git"
+  },
+  "keywords": [
+    "thulioph",
+    "barber",
+    "server"
+  ],
+  "author": "Thulio Philipe",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "debug": "^2.3.2",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.7",
+    "morgan": "^1.7.0"
+  }
+}
