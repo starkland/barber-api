@@ -1,7 +1,7 @@
 {
-  "name": "Minha Agenda",
-  "description": "Aplicação que permite a adição de contatos a uma lista qualquer. ",
-  "repository": "https://github.com/thulioph/minha-agenda",
+  "name": "Barber Server",
+  "description": "Server. ",
+  "repository": "https://github.com/starkland/barber-server",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs"

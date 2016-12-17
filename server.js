@@ -1,6 +1,6 @@
 var app, debug, http, port, server;
 
-app = require('../server/app.js');
+app = require('./app.js');
 debug = require('debug')('test:server');
 http = require('http');
 

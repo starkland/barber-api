@@ -22,8 +22,8 @@ app.use(cookieParser());
 
 // ==========
 
-contact = require('../server/routes/contact.js');
-ApiUsers = require('../server/routes/users.js');
+contact = require('./routes/contact.js');
+ApiUsers = require('./routes/users.js');
 
 app.use('/contact', contact);
 app.use('/api/users', ApiUsers);
